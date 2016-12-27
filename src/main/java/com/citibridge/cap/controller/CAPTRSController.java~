@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class CAPTRSController {
 	
 	
-	@RequestMapping(value="/validateUser",method=RequestMethod.GET,
+	@RequestMapping(value="/validateUser",method=RequestMethod.POST,
 			produces="application/json")
 	@ResponseBody
 	public Object validateUser() throws Exception {
